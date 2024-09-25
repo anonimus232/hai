@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        height: 3000px;
+        font-family: arial;
+      }
+
+      .bottom-right {
+        position: fixed;
+        background-color: black;
+        color: white;
+        right: 20px;
+        bottom: 20px;
+      }
+
+      .right-sidebar {
+        background-color: green;
+        position: fixed;
+        color: white;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100px;
+      }
+
+      .black {
+        color: white;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+
+
+      .background {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        background-color: rgba(0,0,0,0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .white {
+        background-color: white;
+        width: 500px;
+        height: 150px;
+        border-radius: 10px;
+        padding-left: 25px;
+        padding-top: 25px;
+      }
+
+      .p1 {
+        font-size: 38px;
+        font-weight: bold;
+      }
+
+      .p2 {
+        margin-top: 10px;
+        font-size: 22px;
+      }
+
+      .b1 {
+        margin-top: 15px;
+        font-size: 20px;
+        padding-top: 1px;
+        padding-bottom: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+      }
+
+
+      .header1 {
+        position: fixed;
+        top: 5px;
+        right: 75px;
+        left: 75px;
+        height: 45px;
+      }
+      .space-between1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .left-section1 {
+        display: flex;
+        align-items: center;
+      }
+      .image1 {
+        width: 45px;
+        height: 45px;
+        object-fit: cover;
+        border-radius: 30px;
+      }
+      .name {
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 10px;
+      }
+      .add-button {
+        background-color: rgb(53, 117, 237);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 15px;
+        padding-left: 15px;
+        cursor: pointer;
+      }
+      .message-button {
+        background-color: rgb(220,220,220);
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-left:5px;
+        cursor: pointer;
+      }
+
+      
+      .sidebar1 {
+        position: fixed;
+        border: 1px solid;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        display: flex;
+      }
+      .left-side1 {
+        background-color: rgb(30,30,30);
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+      }
+      .image2 {
+        width: 65px;
+        height: 65px;
+        border-radius: 50px;
+        object-fit: cover;
+        display: block;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+      .left-side2 {
+        background-color: rgb(50,50,50);
+        color: rgb(150,150,150);
+        padding-top: 15px;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 150px;
+      }
+      .top-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+      }
+      .info-text {
+        color: white;
+        font-weight: bold;
+      }
+      .plus-symbol {
+        font-size: 30px;
+        cursor: pointer;
+      }
+      .new-videos,
+      .updates,
+      .faq {
+        margin-top: 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- kalau mau lihat hasil dari masing masing di bawah hapus comannd nya dan kalau sudah selesai kembalikan comand nya -->
+    <!-- 
+      <div class="bottom-right">bottom-right</div>
+    -->
+
+    <!-- 
+      <div class="right-sidebar">right sidebar</div>
+    -->
+      
+    <!-- 
+      <div class="black">black</div>
+    -->
+
+    <!-- 
+      <div class="background">
+        <div class="white">
+          <div class="p1">Modal Title</div>
+          <div class="p2"> This is a modal</div>
+          <button class="b1">close</button>
+        </div>
+      </div>
+    -->
+
+    <!-- 
+      <div class="header1">
+        <div class="space-between1">
+          <div class="left-section1">
+            <img src="images/a.png" alt="error. Please try again." class="image1">
+            <div class="name">Oliver Girl</div>
+          </div>
+  
+          <div class="right-section">
+            <button class="add-button">Add Friend</button>
+            <button class="message-button">Message</button>
+          </div>
+        </div>
+      </div>
+    -->
+
+      <div class="sidebar1">
+        <div class="left-side1">
+          <img src="images/a.png" class="image2">
+          <img src="images/c.png" class="image2">
+          <img src="images/b.png" class="image2">
+        </div>
+
+        <div class="left-side2">
+          <div class="top-section">
+            <div class="info-text">INFO</div>
+            <div class="plus-symbol">+</div>
+          </div>
+
+          <div class="new-videos"># new-videos</div>
+          <div class="updates"># updates</div>
+          <div class="faq"># faq</div>
+        </div>
+      </div>
+  </body>
+</html>

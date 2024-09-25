@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: arial;
+      }
+      .main-container {
+        width: 250px;
+        box-shadow: 1px 1px 10px rgba(0,0,0,0.15), -1px -1px 10px rgba(0,0,0,0.15);
+        margin-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 10px;
+        margin-bottom: 50px;
+      }
+      .second-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+      .description {
+        margin: 0;
+      }
+      .number {
+        background-color: rgb(21, 130, 255);
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 14px;
+        padding-left: 14px;
+        border-radius: 50px;
+      }
+      .top {
+        margin-top: 5px;
+      }
+      .bottom {
+        margin-bottom: 5px;
+      }
+
+
+      .main-container1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 25px;
+      }
+      .image {
+        width: 75px;
+        height: 75px;
+        object-fit: cover;
+        border-radius: 50px;
+        object-position: top;
+      }
+      .socond-container1 {
+        width: 300px;
+        margin-left: 15px;
+      }
+      .button {
+        border: none;
+        background-color: rgb(6, 147, 255);
+        color: white;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 5px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .name {
+        font-weight: bold;
+        margin:0;
+      }
+      .description1 {
+        margin-top: 10px;
+        margin-bottom: 0;
+      }
+      .populariti {
+        margin-top: 10px;
+        margin-bottom: 0;
+      }
+      .description1,
+      .populariti {
+        color: rgb(88, 88, 88);
+      }
+      .container-main {
+        box-shadow: 3px 3px 10px rgba(0,0,0,0.15), -3px -3px 10px rgba(0,0,0,0.15);
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 25px;
+        margin-bottom: 50px;
+        width: 525px;
+        border-radius: 30px;
+      }
+      .top{
+        margin-top: 0;
+      }
+
+
+      .main-container2 {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(119, 63, 171);
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 50px;
+      }
+      .home {
+        width: 1px;
+      }
+      .search {
+        flex: 1;
+        margin-left: 5px;
+        margin-right: 30px;
+        max-width: 600px;
+      }
+      .d-button {
+        border: 1px solid white;
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 18px;
+        background-color: transparent;
+        cursor: pointer;
+      }
+      .s-input {
+        padding-left: 16px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 440px;
+        font-size: 16px;
+        border-radius: 50px;
+      }
+      .h-paragraph {
+        font-weight: bold;
+        font-size: 18px;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display:flex;flex-direction:row;">
+      <div style="background-color:lightblue;width:200px;">200px</div>
+      <div style="background-color:lightpink;width:75px;">75px</div>
+    </div>
+
+    <div style="display:flex;flex-direction:row;margin-top: 50px;">
+      <div style="background-color:lightblue;width:50px;">item 1</div>
+      <div style="background-color:lightpink;flex:1;">item 2</div>
+      <div style="background-color:lightblue;width:75px;">item 3</div>
+    </div>
+
+    <div style="display:flex;flex-direction:row;margin-top: 50px;justify-content:space-between;">
+      <div style="background-color:lightpink;width:50px;">item 1</div>
+      <div style="background-color:lightpink;width:50px;">item 2</div>
+      <div style="background-color:lightpink;width:50px;">item 3</div>
+      <div style="background-color:lightpink;width:50px;">item 4</div>
+    </div>
+
+    <div style="display:flex;flex-direction:row;margin-top: 50px;justify-content:space-between;border: 1px solid gray;padding-top: 30px;padding-bottom: 30px;align-items: center;">
+      <div style="background-color:lightpink;">item 1</div>
+      <div style="background-color:lightpink;">item 2</div>
+    </div>
+
+    <!-- challenge -->
+    
+    <div class="main-container">
+      <div class="second-container top">
+        <p class="description">Home</p>
+        <div class="number">14</div>
+      </div>
+
+      <div class="second-container">
+        <p class="description">Notifications</p>
+        <div class="number">3</div>
+      </div>
+
+      <div class="second-container bottom">
+        <p class="description">Messages</p>
+        <div class="number">5</div>
+      </div>
+    </div>
+
+
+
+    <div class="container-main">
+      <div class="main-container1 top">
+        <img src="images/a.png" class="image">
+        <div class="socond-container1">
+          <p class="name">Oliver</p>
+          <p class="description1">The Woman</p>
+          <p class="populariti">Popular</p>
+        </div>
+        <button class="button">Follow</button>
+      </div>
+  
+      <div class="main-container1">
+        <img src="images/d.png" class="image">
+        <div class="socond-container1">
+          <p class="name">Daniel</p>
+          <p class="description1">The Man</p>
+          <p class="populariti">Popular</p>
+        </div>
+        <button class="button">Follow</button>
+      </div>
+  
+      <div class="main-container1">
+        <img src="images/c.png" class="image">
+        <div class="socond-container1">
+          <p class="name">Mimi</p>
+          <p class="description1">The Woman</p>
+          <p class="populariti">Popular</p>
+        </div>
+        <button class="button">Follow</button>
+      </div>
+    </div>
+
+    <div class="main-container2">
+      <div class="home">
+        <p class="h-paragraph">Home</p>
+      </div>
+      <div class="search">
+        <input type="text" class="s-input" placeholder="Search">
+      </div>
+      <div class="download">
+        <button class="d-button">Download</button>
+      </div>
+    </div>
+  </body>
+</html>

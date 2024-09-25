@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Exercises 7</title>
+  <style>
+    body {
+      background-color: rgb(229, 232, 232);
+      font-family: arial;
+    }
+    .a {
+      width: 200px;
+      border-radius: 10px;
+    }
+    .b {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      object-position: top;
+    }
+    .c {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      object-position: top;
+      border-radius: 100px;
+    }
+    .d {
+      padding-bottom: 10px;
+      padding-top: 10px;
+      padding-right: 50px;
+      padding-left: 15px;
+      border-radius: 7px;
+      border-width: 1px;
+      border-style: solid;
+    }
+    .e {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 15px;
+      padding-right: 250px;
+      width: 180px;
+      border: none;
+      border-radius: 20px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.15)
+    }
+    .em {
+      color: grey;
+      margin-top: 50px;
+      margin-bottom: 0;
+      font-size: 12px;
+    }
+    .te {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 15px;
+      padding-right: 120px;
+      margin-top: 6px;
+      border-width: 2px;
+      border-radius: 5px;
+      margin-bottom: 0;
+    }
+    .des {
+      color: grey;
+      margin-top: 15px;
+      font-size: 12px;
+    }
+    .bu {
+      background-color: rgb(10, 102, 194);
+      border: none;
+      color: white;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-left: 111px;
+      padding-right: 111px;
+      border-radius: 30px;
+      cursor: pointer;
+    }
+    .con {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    .fot {
+      height: 100px;
+      width: 100px;
+      object-fit: cover;
+      object-position: top;
+      border-radius: 90px;
+      vertical-align: middle;
+    }
+    .dec {
+      vertical-align: middle;
+      margin-left: 10px;
+      font-size: 24px;
+      color: rgb(107, 107, 107);
+      margin-right: 200px;
+    }
+    .but {
+      border: none;
+      background-color: rgb(37, 144, 206);
+      color: white;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 25px;
+      padding-right: 25px;
+      border-radius: 30px;
+      font-size: 24px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <img class="a" src="images/image.png" />
+  <img class="b" src="images/image.png">
+  <img class="c" src="images/image.png">
+
+  <p>
+    <input type="text" placeholder="Search" class="d">
+    <input type="text" placeholder="Search Google or type a URL" class="e">
+  </p>
+
+  <!-- challenge -->
+
+  <p class="em">Email</p>
+  <input type="text" class="te">
+  <p class="des">By clicking Agree & Join, you agree to the Privacy Policy.</p>
+  <button class="bu">Agree & Join</button>
+
+  <div class="con">
+    <p><img src="images/image.png" class="fot"> <span class="dec js">What's happening?</span> <button class="but">Tweet</button></p>
+    <input type="text" class="js-input"> <button class="change">Change</button>
+  </div>
+  <script>
+    const teks = document.querySelector('.js-input')
+    document.querySelector('.change').addEventListener('click', () => {
+      document.querySelector('.js').innerHTML = teks.value;
+    })
+  </script>
+</body>
+</html>

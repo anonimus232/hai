@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body{
+        font-family: arial;
+      }
+      .image1 {
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        object-position: top;
+        vertical-align: middle;
+        margin-bottom: 0;
+        cursor: pointer;
+      }
+      .seconds-container {
+        padding-top: 10px;
+        width: 190PX;
+        border-radius: 3px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        box-shadow: 1px 1px 10px rgba(0,0,0,0.25), -1px -1px 10px rgba(0,0,0,0.25);
+      }
+      .name {
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 0;
+        cursor: pointer;
+      }
+      .friends {
+        color: rgb(104, 104, 104);
+        margin-top: 5px;
+      }
+      .second-btn {
+        background-color: rgb(52, 150, 255);
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .main-container2 {
+        margin-top: 60px;
+        margin-bottom: 50px;
+      }
+      .frd {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        border-radius: 40px;
+        vertical-align: top;
+        cursor: pointer;
+      }
+      .thrid-container {
+        margin-bottom: 5px;
+        margin-top: 5px;
+        display: grid;
+        grid-template-columns: 30px 1fr;
+        column-gap: 5px;
+      }
+      .main-grid {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        column-gap: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="
+      display: grid;
+      grid-template-columns: 200px 75px;
+      ">
+      <div style="background-color: lightblue;">200px</div>
+      <div style="background-color: lightpink;">75px</div>
+    </div>
+
+    <div style="
+      display: grid;
+      grid-template-columns: 50px 1fr 75px;
+      margin-top: 50px;
+      ">
+      <div style="background-color: lightblue;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightblue;">col3</div>
+    </div>
+
+    <div style="
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 20px;
+      row-gap: 10px;
+      margin-top: 50px;
+      ">
+      <div style="background-color: lightpink;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightpink;">col3</div>
+      <div style="background-color: lightpink;">col4</div>
+      <div style="background-color: lightpink;">col1</div>
+      <div style="background-color: lightpink;">col2</div>
+      <div style="background-color: lightpink;">col3</div>
+      <div style="background-color: lightpink;">col4</div>
+    </div>
+
+
+    <div class="main-grid">
+      <div class="main-container2">
+        <img src="images/d.png" class="image1">
+        <div class="seconds-container">
+          <p class="name">Daniel</p>
+          <div class="thrid-container">
+            <img src="images/c.png" class="frd">
+            <p class="friends">2 mutual friends</p>
+          </div>
+          <button class="second-btn">Add Friend</button>
+        </div>
+      </div>
+  
+      <div class="main-container2">
+        <img src="images/a.png" class="image1">
+        <div class="seconds-container">
+          <p class="name">Mimi</p>
+          <div class="thrid-container">
+            <img src="images/c.png" class="frd">
+            <p class="friends">3 mutual friends</p>
+          </div>
+          <button class="second-btn">Add Friend</button>
+        </div>
+      </div>
+  
+      <div class="main-container2">
+        <img src="images/b.png" class="image1">
+        <div class="seconds-container">
+          <p class="name">Rex</p>
+          <div class="thrid-container">
+            <img src="images/c.png" class="frd">
+            <p class="friends">4 mutual friends</p>
+          </div>
+          <button class="second-btn">Add Friend</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

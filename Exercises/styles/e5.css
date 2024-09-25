@@ -1,0 +1,167 @@
+.tahoma {
+  margin-top: 50px;
+  font-family: tahoma;
+  font-size: 40px;
+  font-weight: bold;
+}
+.arial1 {
+  font-family: arial;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0;
+  line-height: 20px;
+}
+.arial2 {
+  font-family: arial;
+  font-size: 20px;
+  margin-top: 15px;
+  color: chocolate;
+  font-style: italic;
+}
+.verdana {
+  font-family: verdana;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.ver1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.ver2 {
+  color: gray;
+  margin-top: 3px;
+}
+.ver3 {
+  margin-top: 20px;
+  width: 300px;
+}
+.ver4 {
+  background-color: rgb(1, 137, 1);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.arial {
+  font-family: arial;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.ar1 {
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.ar2 {
+  margin-top: 20px;
+}
+.ar3 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  color: rgb(0, 98, 255);
+  cursor: pointer;
+}
+.bts {
+  background-color: black;
+  height: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+.txt-cen {
+  text-align: center;
+  margin-bottom: 0;
+}
+.n-arial {
+  font-family: arial;
+}
+.new {
+  color: orange;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.spesial {
+  width: 100%;
+  text-align: center;
+}
+.btn {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 14px;
+  padding-right: 14px;
+  border: none;
+  border-radius: 16px;
+  background-color: rgb(51, 112, 255);
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+.product {
+  margin-top: 7px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.description {
+  font-size: 40px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+.price7 {
+  margin-top: 12px;
+  margin-bottom: -2;
+}
+.p {
+  font-family: arial;
+}
+.c1 {
+  font-size: 30px;
+  line-height: 10px;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+.s1 {
+  font-size: 16px;
+  color: gray;
+}
+.c2 {
+  margin-top: 20px;
+  color: green;
+  line-height: 10px;
+}
+.c3 {
+  margin-bottom: 50px;
+  color: gray;
+}
+.s2 {
+  color: red;
+}
+.a1 {
+  margin-top: 50px;
+  font-weight: bold;
+  line-height: 10px;
+  margin-bottom: 0;
+}
+.z1 {
+  color: gray;
+  font-weight: normal;
+}
+.z2 {
+  color: rgb(0, 166, 221);
+}
+.a2 {
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.a3 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}

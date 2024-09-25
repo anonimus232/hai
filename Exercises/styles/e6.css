@@ -1,0 +1,21 @@
+.model3 {
+  font-family: montserrat;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+.or {
+  text-align: center;
+  font-family: montserrat;
+  margin-top: 10px;
+  font-size: 17px;
+}
+.u {
+  cursor: pointer;
+}
+.u:active {
+  opacity: 0.7;
+}
